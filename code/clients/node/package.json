@@ -1,0 +1,7 @@
+{
+  "name": "ops-playbook-mcp-example",
+  "private": true,
+  "type": "module",
+  "scripts": { "start": "node list-tools.mjs" },
+  "dependencies": { "@modelcontextprotocol/sdk": "^1.0.0" }
+}

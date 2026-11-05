@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "stacksync": {
+      "url": "https://mcp.stacksync.com/mcp"
+    }
+  }
+}

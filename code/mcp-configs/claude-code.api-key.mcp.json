@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "stacksync": {
+      "type": "http",
+      "url": "https://mcp.stacksync.com/mcp",
+      "headers": {
+        "Authorization": "Bearer ${STACKSYNC_API_KEY}"
+      }
+    }
+  }
+}

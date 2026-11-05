@@ -1,0 +1,32 @@
+# AI agents for operations: playbook
+
+> A playbook of AI agent use cases for operations, finance and revenue teams: job descriptions, approval steps, workflow-versus-agent guidance and MCP setup. The agents are Stacksync Genies, which read connected ERP, CRM, database and support systems and act across them with approval steps and a run log. Code examples show how to connect an agent to the Stacksync MCP server.
+
+Stacksync AI agents: https://www.stacksync.com/ai-agents
+Stacksync MCP: https://www.stacksync.com/mcp
+MCP server URL: https://mcp.stacksync.com/mcp
+Official skills: https://github.com/stacksyncdata/skills
+
+## Playbooks
+
+- playbooks/01-freight-invoice-disputes.md
+- playbooks/02-invoice-and-document-intake.md
+- playbooks/03-payout-reconciliation.md
+- playbooks/04-closed-won-onboarding.md
+- playbooks/05-account-enrichment.md
+- playbooks/06-ticket-escalation.md
+- playbooks/07-order-questions-from-slack.md
+- playbooks/08-sync-issue-triage.md
+
+## Docs
+
+- docs/how-a-genie-works.md
+- docs/genie-vs-workflow.md
+- docs/approvals-and-logs.md
+- docs/connect-an-agent-to-mcp.md
+
+## Code
+
+- code/mcp-configs: config files for Claude Code, Cursor, Windsurf and VS Code
+- code/skills: example Agent Skills (SKILL.md) for invoice reconciliation, account enrichment and ticket escalation
+- code/clients: minimal Python and Node MCP clients using an API key
